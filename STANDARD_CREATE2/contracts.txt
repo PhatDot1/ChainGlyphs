@@ -1,0 +1,8 @@
+ERC6551AccountUpgradeable: 0xe31a13ede24ae50b27e5eca0d6cf06acfd673cce
+
+ERC6551Registry: 0x9d9bfcd5bd51463e0533ef5bc8fbcc520e9c708d
+Use:
+
+Call createAccount(impl, salt, chainId, nftContract, tokenId) to spin up your token‐bound account.
+
+CREATE2 Not Functional on Polkadot Westend. Create Workaround?

@@ -1,0 +1,7 @@
+autoglyphs natively has storage issues when trying to deploy with polkaVM, so we will begin by making a simplified version that maintains crucial characteristics
+
+
+Deployed on ARB Sepolia:
+Autoglyphs deployed to: 0x19054030669efBFc413bA3729b63eCfD3Bdc22B5
+
+Deployed on Polkadot Westend Asset Hub:

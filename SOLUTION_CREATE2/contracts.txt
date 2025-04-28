@@ -1,0 +1,30 @@
+CREATE2 DOESNT NATIVELY WORK, SOLUTION - THEORETICAL WORKAROUND:
+
+CREATE2: DOES
+
+WORKAROUND: DOES
+
+EXECUTION
+
+ON POLKADOT WESTEND ASSET HUB: 
+ERC6551AccountUpgradeable: 0x95e35e2eda256abd2c4a63de50abcbb8350c8b5f -> 0x22e48753fd8d3b15aa7f2c164d7f759139223e75
+ERC6551RegistryWithPredict: 0xde56daf91fdfdf1d5e74150a39be262309b7141b -> 0xbf48a74626f7e610d70c8772e9ad93292ccbd25b
+
+ON ARB SEPOLIA:
+ERC6551AccountUpgradeable deployed to: 0x5fa19b4a48C20202055c8a6fdf16688633617D50
+ERC6551RegistryWithPredict deployed to: 0x25bc04a49997e25B7482eEcbeB2Ec67740AEd5a6
+
+Use:
+
+Call createAccount(impl, salt, chainId, nftContract, tokenId) to spin up your token‐bound account.
+
+CREATE2 Not Functional on Polkadot Westend. Create Workaround?
+
+Using CREATE and the associated contracts in this folder, managed to get a working 'workaround' on EVM, but cannot get it working on PolkaVM - Transaction execution always reverted, regardless of gas, ED amount, contract logic - Always getting this when using CREATE
+
+Performance Metrics:
+Seamless on EVM - Testing on Arbitrum [insert parameters]
+
+Null on Polkadot [Always reverting - see above]
+
+TEST SIMPLEST CASE FOR CREATE
