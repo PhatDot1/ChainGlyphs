@@ -5,3 +5,8 @@ Deployed on ARB Sepolia:
 Autoglyphs deployed to: 0x19054030669efBFc413bA3729b63eCfD3Bdc22B5
 
 Deployed on Polkadot Westend Asset Hub:
+
+
+first: deploy autoglyphs - [gas fees not maintainable]
+second: reduced autoglyphs - overflow error too prone
+third: autoglyphs inspired generation - custom contract
