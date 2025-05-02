@@ -1,3 +1,4 @@
+  0x585eBA013eb7Ec2bE10C335186a4bB372B181D60
   {
       "trait_type": "bars",
       "value": 2
