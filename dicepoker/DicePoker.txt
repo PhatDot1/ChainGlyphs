@@ -1,3 +1,5 @@
+A functional fully on-chain dice poker game - sufficient for performance issues monitoring, but some broken game logic.
+
 Polkadot Contract:
 0x1ce43d3e45303569bafaba4c4ddef9baf1d7a73f
 
