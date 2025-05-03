@@ -1,6 +1,6 @@
-// scripts/interactive-dice-poker.js
-// Interactive CLI for the DicePoker contract (2-phase reveal)
-// Usage: npx hardhat run scripts/interactive-dice-poker.js --network <network>
+
+// 2 rounds of betting, 3 dice reveal, 2 more rounds of betting, end. - highest wins.
+// configred for HH environment
 
 require("dotenv").config();
 const hre = require("hardhat");

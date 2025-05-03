@@ -1,1 +1,263 @@
+Contract:
 0xda1f2f9737ebdfc694605b9ce050964bd03bd6e1
+
+Logs:
+"name": "||||||||||||||||||||||||||||||||||||||||||||||||||",
+  "description": "ASCII-Eval NFT: on-chain metrics -> art",
+  "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmZmIi8+PHRleHQgeD0iMTAiIHk9IjIwIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0id2hpdGUtc3BhY2U6cHJlO2ZvbnQtZmFtaWx5Om1vbm9zcGFjZTtmb250LXNpemU6MTJweDsiPjx0c3BhbiB4PSIxMCIgZHk9IjBlbSI+4iAgICAgICAgIDwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPiAgICAgIOIgICA8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj4gICDiICAgICAgPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+IOIg4iAgICAgIDwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPiAgICAgIOMgICA8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj7i4iAgICAgICDiPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+ICDiICDiICAgIDwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPiAgICAgICDjICA8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj4g4iAgICAgIOIgPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+4uPiICAgICAgIDwvdHNwYW4+PC90ZXh0Pjwvc3ZnPg==",
+
+:bar_chart: On-chain metrics:
+  gaslimit:    2000000000000
+  baseFee:     0.0 gwei
+  gasPrice:    0.000001 gwei
+  priorityFee: 0.000001 gwei
+  chainId:     420420421
+
+⛓  Sampling last 20 blocks for tx/s (200 ms delay)…
+   ≈ 0.01 tx/s
+  gasUsed: 47659635048333n,
+  blobGasUsed: null,
+  cumulativeGasUsed: 0n,
+  gasPrice: 1200n,
+  blobGasPrice: null,
+  type: 2,
+  status: 1,
+   ⏱  Phase1 duration: 4428 ms
+
+
+
+   -------
+
+
+
+
+   "name": "||||||||||||||||||||||||||||||||||||||||||||||||||",
+  "description": "ASCII-Eval NFT: on-chain metrics -> art",
+  "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmZmIi8+PHRleHQgeD0iMTAiIHk9IjIwIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0id2hpdGUtc3BhY2U6cHJlO2ZvbnQtZmFtaWx5Om1vbm9zcGFjZTtmb250LXNpemU6MTJweDsiPjx0c3BhbiB4PSIxMCIgZHk9IjBlbSI+ICDiICAgIOIgIDwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPiAgIOIgICAgICA8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj4gICAgICAg4iAgPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+ICAgICAgICAgIDwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPiAgIOIgICAgICA8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj4gICAgIOIgICAgPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+IOMgICAgICAgIDwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPiAgICDjICAgICA8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj4gICAgICAgICAgPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+ICAgICAgICAgIDwvdHNwYW4+PC90ZXh0Pjwvc3ZnPg==",
+
+  gasUsed: 47659635048333n,
+  blobGasUsed: null,
+  cumulativeGasUsed: 0n,
+  gasPrice: 1200n,
+  blobGasPrice: null,
+  type: 2,
+  status: 1,
+  root: undefined
+}
+:mag: provider.getFeeData().gasPrice: 0.000001 gwei
+
+:bar_chart: On-chain metrics:
+  gaslimit:    2000000000000
+  baseFee:     0.0 gwei
+  gasPrice:    0.000001 gwei
+  priorityFee: 0.000001 gwei
+  chainId:     420420421
+
+⛓  Sampling last 20 blocks for tx/s (200 ms delay)…
+   ≈ 0.03 tx/s
+   ⏱  Phase1 duration: 4435 ms
+
+
+
+
+
+   ---------
+
+
+
+   "name": "||||||||||||||||||||||||||||||||||||||||||||||||||",
+  "description": "ASCII-Eval NFT: on-chain metrics -> art",
+  "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmZmIi8+PHRleHQgeD0iMTAiIHk9IjIwIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0id2hpdGUtc3BhY2U6cHJlO2ZvbnQtZmFtaWx5Om1vbm9zcGFjZTtmb250LXNpemU6MTJweDsiPjx0c3BhbiB4PSIxMCIgZHk9IjBlbSI+ICDiICAgICAg4jwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPiAgICAg4iAgICA8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj4gICAgICAgIOIgPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+ICAg4iAgICAgIDwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPiAgICAgICAgICA8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj7iICAg4iAgICDiPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+ICAgICAgICAgIDwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPuPiICAgICAg4uI8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj4gICAgICAgICAgPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+IOIgICAgICAgIDwvdHNwYW4+PC90ZXh0Pjwvc3ZnPg==",
+  gasUsed: 47659635048333n,
+  blobGasUsed: null,
+  cumulativeGasUsed: 0n,
+  gasPrice: 1200n,
+  blobGasPrice: null,
+  type: 2,
+  status: 1,
+  root: undefined
+}
+:mag: provider.getFeeData().gasPrice: 0.000001 gwei
+
+:bar_chart: On-chain metrics:
+  gaslimit:    2000000000000
+  baseFee:     0.0 gwei
+  gasPrice:    0.000001 gwei
+  priorityFee: 0.000001 gwei
+  chainId:     420420421
+
+⛓  Sampling last 20 blocks for tx/s (200 ms delay)…
+   ≈ 0.02 tx/s
+   ⏱  Phase1 duration: 12485 ms
+
+
+
+
+   ---------
+
+
+
+
+   {
+  "name": "||||||||||||||||||||||||||||||||||||||||||||||||||",
+  "description": "ASCII-Eval NFT: on-chain metrics -> art",
+  "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmZmIi8+PHRleHQgeD0iMTAiIHk9IjIwIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0id2hpdGUtc3BhY2U6cHJlO2ZvbnQtZmFtaWx5Om1vbm9zcGFjZTtmb250LXNpemU6MTJweDsiPjx0c3BhbiB4PSIxMCIgZHk9IjBlbSI+ICAgICAg4yAgIDwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPiAgICAgICAgIOI8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj4gICAg4uIgICAgPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+4yAgICAgICDiIDwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPuIgICAgIOMgICA8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj4gICAgICAgICAgPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+ICAgICAgICAg4jwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPiAgICDiICDiICA8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj4gICAgICAgICDjPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+ICAgICAgICAgIDwvdHNwYW4+PC90ZXh0Pjwvc3ZnPg==", 
+
+gasUsed: 47659635048333n,
+  blobGasUsed: null,
+  cumulativeGasUsed: 0n,
+  gasPrice: 1200n,
+  blobGasPrice: null,
+  type: 2,
+  status: 1,
+  root: undefined
+}
+:mag: provider.getFeeData().gasPrice: 0.000001 gwei
+
+:bar_chart: On-chain metrics:
+  gaslimit:    2000000000000
+  baseFee:     0.0 gwei
+  gasPrice:    0.000001 gwei
+  priorityFee: 0.000001 gwei
+  chainId:     420420421
+
+⛓  Sampling last 20 blocks for tx/s (200 ms delay)…
+   ≈ 0.01 tx/s
+   ⏱  Phase1 duration: 24676 ms
+
+
+
+
+
+   ---------
+
+
+
+
+
+   "||||||||||||||||||||||||||||||||||||||||||||||||||",
+  "description": "ASCII-Eval NFT: on-chain metrics -> art",
+  "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmZmIi8+PHRleHQgeD0iMTAiIHk9IjIwIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0id2hpdGUtc3BhY2U6cHJlO2ZvbnQtZmFtaWx5Om1vbm9zcGFjZTtmb250LXNpemU6MTJweDsiPjx0c3BhbiB4PSIxMCIgZHk9IjBlbSI+ICAgICAgICAg4jwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPiAgICAgICAgICA8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj4gICAgICAgICAgPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+ICAgICAgICAgIDwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPiAgICAgICAgIOI8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj4gICDi4yDiICAgPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+ICAgICAgICAgIDwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPiAgICAgICAgICA8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj4gICAgICAg4iAgPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+ICAgICAgICAgIDwvdHNwYW4+PC90ZXh0Pjwvc3ZnPg==",
+  gasUsed: 47659635048333n,
+  blobGasUsed: null,
+  cumulativeGasUsed: 0n,
+  gasPrice: 1200n,
+  blobGasPrice: null,
+  type: 2,
+  status: 1,
+  root: undefined
+}
+:mag: provider.getFeeData().gasPrice: 0.000001 gwei
+
+:bar_chart: On-chain metrics:
+  gaslimit:    2000000000000
+  baseFee:     0.0 gwei
+  gasPrice:    0.000001 gwei
+  priorityFee: 0.000001 gwei
+  chainId:     420420421
+
+⛓  Sampling last 20 blocks for tx/s (200 ms delay)…
+   ≈ 0.02 tx/s   
+⏱  Phase1 duration: 4459 ms
+
+
+
+
+----------
+
+
+
+"name": "||||||||||||||||||||||||||||||||||||||||||||||||||",
+  "description": "ASCII-Eval NFT: on-chain metrics -> art",
+  "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmZmIi8+PHRleHQgeD0iMTAiIHk9IjIwIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0id2hpdGUtc3BhY2U6cHJlO2ZvbnQtZmFtaWx5Om1vbm9zcGFjZTtmb250LXNpemU6MTJweDsiPjx0c3BhbiB4PSIxMCIgZHk9IjBlbSI+ICAg4iAgIOIgIDwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPiAg4iAgICAgICA8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj4gIOIgICAgICDiPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+ICAgICAgICDiIDwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPiDiICAgICAgIOI8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj4gICAgIOIgICAgPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+ICAgICAgICAgIDwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPiDiICAgICDiICA8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj4gICAgICAgICAgPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+ICAg4uIgICAgIDwvdHNwYW4+PC90ZXh0Pjwvc3ZnPg==",  
+gasUsed: 47659635048333n,
+  blobGasUsed: null,
+  cumulativeGasUsed: 0n,
+  gasPrice: 1200n,
+  blobGasPrice: null,
+  type: 2,
+  status: 1,
+  root: undefined
+}
+:mag: provider.getFeeData().gasPrice: 0.000001 gwei
+
+:bar_chart: On-chain metrics:
+  gaslimit:    2000000000000
+  baseFee:     0.0 gwei
+  gasPrice:    0.000001 gwei
+  priorityFee: 0.000001 gwei
+  chainId:     420420421
+
+⛓  Sampling last 20 blocks for tx/s (200 ms delay)…
+   ≈ 0.00 tx/s
+
+
+   ---------------
+
+
+
+
+   "name": "||||||||||||||||||||||||||||||||||||||||||||||||||",
+  "description": "ASCII-Eval NFT: on-chain metrics -> art",
+  "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmZmIi8+PHRleHQgeD0iMTAiIHk9IjIwIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0id2hpdGUtc3BhY2U6cHJlO2ZvbnQtZmFtaWx5Om1vbm9zcGFjZTtmb250LXNpemU6MTJweDsiPjx0c3BhbiB4PSIxMCIgZHk9IjBlbSI+4uIgICAgICDiIDwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPiAgICAg4iAgICA8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj7iICAgICAgICAgPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+ICAgICAgIOIg4jwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPiAg4iAgICAgICA8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj4gICAgICAgICAgPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+ICAgICAgICAgIDwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPiAgICAgICAgICA8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj4gICAgICAg4yAgPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+ICAgICAgICAgIDwvdHNwYW4+PC90ZXh0Pjwvc3ZnPg==",
+  gasUsed: 47659635048333n,
+  blobGasUsed: null,
+  cumulativeGasUsed: 0n,
+  gasPrice: 1200n,
+  blobGasPrice: null,
+  type: 2,
+  status: 1,
+  root: undefined
+}
+:mag: provider.getFeeData().gasPrice: 0.000001 gwei
+
+:bar_chart: On-chain metrics:
+  gaslimit:    2000000000000
+  baseFee:     0.0 gwei
+  gasPrice:    0.000001 gwei
+  priorityFee: 0.000001 gwei
+  chainId:     420420421
+
+⛓  Sampling last 20 blocks for tx/s (200 ms delay)…
+   ≈ 0.01 tx/s
+
+
+
+   -----------
+
+
+
+
+   "name": "||||||||||||||||||||||||||||||||||||||||||||||||||",
+  "description": "ASCII-Eval NFT: on-chain metrics -> art",
+  "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmZmIi8+PHRleHQgeD0iMTAiIHk9IjIwIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0id2hpdGUtc3BhY2U6cHJlO2ZvbnQtZmFtaWx5Om1vbm9zcGFjZTtmb250LXNpemU6MTJweDsiPjx0c3BhbiB4PSIxMCIgZHk9IjBlbSI+ICAgICAgICDiIDwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPiAgIOIgICDiIOM8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj4gICAgICAgICAgPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+ICDjICDjICDiIDwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPiAgICAgIOMgICA8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj4gIOLiICAgICAgPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+ICAgICAgICAgIDwvdHNwYW4+PHRzcGFuIHg9IjEwIiBkeT0iMS4yZW0iPuIgICDjICAgICA8L3RzcGFuPjx0c3BhbiB4PSIxMCIgZHk9IjEuMmVtIj4gICAgICDiICAgPC90c3Bhbj48dHNwYW4geD0iMTAiIGR5PSIxLjJlbSI+ICAgICAgIOIg4jwvdHNwYW4+PC90ZXh0Pjwvc3ZnPg=="
+
+  gasUsed: 47659635048333n,
+  blobGasUsed: null,
+  cumulativeGasUsed: 0n,
+  gasPrice: 1200n,
+  blobGasPrice: null,
+  type: 2,
+  status: 1,
+  root: undefined
+}
+:mag: provider.getFeeData().gasPrice: 0.000001 gwei
+
+:bar_chart: On-chain metrics:
+  gaslimit:    2000000000000
+  baseFee:     0.0 gwei
+  gasPrice:    0.000001 gwei
+  priorityFee: 0.000001 gwei
+  chainId:     420420421
+
+⛓  Sampling last 20 blocks for tx/s (200 ms delay)…
+   ≈ 0.01 tx/s
+   ⏱  Phase1 duration: 73242 ms
+
+
+   -----------
+
+
+
+
+   
