@@ -7,7 +7,7 @@ const hre = require("hardhat");
 const { ethers, network } = hre;
 const readline = require("readline");
 
-// === CONFIGURATION ===
+// config
 const CONTRACT_ADDRESS = "0x50ecc9DB42396BCd3461C41025eF3603eEBc31d6";
 const ZERO_ADDRESS     = "0x0000000000000000000000000000000000000000";
 const STATE_NAMES = [
