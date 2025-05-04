@@ -5,3 +5,6 @@ Polkadot Contract:
 
 Eth Sepolia Contract:
 0x50ecc9DB42396BCd3461C41025eF3603eEBc31d6
+
+Full dice poker contract not deployable on Polkadot: size of this transaction is too large: it is 106815 while the max is 49152
+Max init code size of 49152 is not sufficient. Westend Asset Hub’s EVM pallet enforces it strictly.
