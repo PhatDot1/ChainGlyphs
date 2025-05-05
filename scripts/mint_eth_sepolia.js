@@ -35,14 +35,13 @@ async function main() {
   const provider = new ethers.JsonRpcProvider(RPC_URL, "sepolia");
   const wallet   = new ethers.Wallet(PRIVATE_KEY, provider);
   const nft      = new ethers.Contract(
-    "0x95E35e2EDa256aBd2c4A63De50abCBB8350C8B5F",
+    // your new AsciiChainEvalNFT address:
+    "0x585eBA013eb7Ec2bE10C335186a4bB372B181D60",
     [
       "function mintPrice() view returns (uint256)",
-      "function safeMintWithMetrics(address to,string art) payable",
-      // new signature with all 11 params:
-      "function safeMintWithParams(address to,string art,uint256 time,uint256 gaslimit,uint256 baseFee,uint256 gasPrice,uint256 priorityFee,uint256 chainId,uint256 diskSize,uint256 txThroughput,uint256 archiveSize) payable",
+      "function safeMintWithMetrics(address to) payable",
+      "function safeMintWithParams(address to,uint256 time,uint256 gaslimit,uint256 baseFee,uint256 gasPrice,uint256 priorityFee,uint256 chainId,uint256 diskSize,uint256 txThroughput,uint256 archiveSize) payable",
       "function tokenURI(uint256 tokenId) view returns (string)",
-      // updated ChainMetrics event (no blockNumber, timestamp):
       "event ChainMetrics(uint256 gaslimit,uint256 baseFee,uint256 gasPrice,uint256 chainId,address indexed caller)",
       "event Transfer(address indexed from,address indexed to,uint256 indexed tokenId)"
     ],
@@ -55,19 +54,19 @@ async function main() {
 
   // ── Phase 1: emit & capture on-chain metrics ───────────────────────────────
   console.log("▶️  Phase1: safeMintWithMetrics()");
-  const startTime = Date.now();                              // ← added: start wall‐clock timer
-  const tx1 = await nft.safeMintWithMetrics(wallet.address, "Metrics+ASCII!", { value: price });
+  const startTime = Date.now();
+  const tx1 = await nft.safeMintWithMetrics(wallet.address, { value: price });
   console.log("   tx1 hash:", tx1.hash);
   const r1 = await tx1.wait();
-  const durationMs = Date.now() - startTime;                 // ← added: compute elapsed ms
+  const durationMs = Date.now() - startTime;
   console.log("✅ Phase1 mined in block", r1.blockNumber);
-  console.log(`   ⏱  Phase1 duration: ${durationMs} ms`);    // ← added: log it
+  console.log(`   ⏱  Phase1 duration: ${durationMs} ms`);
 
   // find and parse the ChainMetrics event
   const metricsEvt = r1.logs
     .map(l => {
-      try { return nft.interface.parseLog(l) }
-      catch { return null }
+      try { return nft.interface.parseLog(l); }
+      catch { return null; }
     })
     .find(e => e && e.name === "ChainMetrics");
 
@@ -76,7 +75,7 @@ async function main() {
     process.exit(1);
   }
 
-  // destructure
+  // destructure on-chain metrics
   const { gaslimit, baseFee, gasPrice, chainId } = metricsEvt.args;
   const priorityFee = gasPrice - baseFee; // bigint subtraction
 
@@ -93,25 +92,18 @@ async function main() {
   console.log(`   ≈ ${txps.toFixed(2)} tx/s`);
 
   // ── Phase 2: finalize mint with ALL params ─────────────────────────────────
-  const asciiArt = `
-   ⠀⠀⣠⣶⣶⣶⣶⣶⣶⣶⣶⣤
-   ⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿
-   ⠀⠀⠉⠉⠉⠉⠉⠉⠉⠉⠁
-  `;
-
   console.log("\n▶️  Phase2: safeMintWithParams()");
   const tx2 = await nft.safeMintWithParams(
     wallet.address,
-    asciiArt,
-    durationMs,           // ← use the real Phase1 duration instead of hard-coded 1
+    durationMs,            // real Phase1 duration
     gaslimit,
     baseFee,
     gasPrice,
     priorityFee,
     chainId,
-    0,                    // diskSize (hard-coded)
-    Math.floor(txps),     // txThroughput
-    0,                    // archiveSize (hard-coded)
+    0,                     // diskSize (hard-coded)
+    Math.floor(txps),      // txThroughput
+    0,                     // archiveSize (hard-coded)
     { value: price }
   );
   console.log("   tx2 hash:", tx2.hash);
@@ -120,7 +112,10 @@ async function main() {
 
   // pull out your new tokenId from the Transfer event
   const transferEvt = r2.logs
-    .map(l => { try { return nft.interface.parseLog(l) } catch { return null } })
+    .map(l => {
+      try { return nft.interface.parseLog(l); }
+      catch { return null; }
+    })
     .find(e => e && e.name === "Transfer");
 
   if (!transferEvt) {

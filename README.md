@@ -67,6 +67,7 @@ Key parameters driving the art:
 - **rows** = time (clamped 1–41 on Sepolia; 1–10 on Westend)  
 - **charsPerRow** = ⎣gasPrice / 1e9⎦ (gwei, clamped)  
 - **shade** = (4 – (txThroughput mod 5)), cycling five block glyphs  
+- **Size** ∝ the computational intensity of the algorithm ~ block gas limit 
 
 ---
 
@@ -76,14 +77,8 @@ Key parameters driving the art:
 
 - **Sepolia**: `block.gaslimit` ≈ 36 000 000 gas :contentReference[oaicite:0]{index=0}  
 - **Westend**: JSON‑RPC `gasLimit` = `0x2cb4178000000` → 786 432 000 000 000 weight‑units - I estimated it to be right next to the default‐test value of 20 000 in gas [unsure]
- 
 
-### 4.2 RPC Simulation Caps & Timeouts
-
-- **Sepolia Geth**: RPC `--rpc.gascap` = 2⁶³, execution timeout ≈ 5 s :contentReference[oaicite:2]{index=2}  
-- **Westend Frontier**: `eth_call` weight cap = blockWeightLimit, WASM memory cap ≈ 4 GiB   
-
-### 4.3 Memory‑Growth Semantics
+### 4.2 Memory‑Growth Semantics
 
 - **`string.concat`** grows **quadratically** (each concat copies entire string).  
 - **`bytes` buffer** grows **linearly**—preferred for large loops.  
