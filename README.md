@@ -172,19 +172,19 @@ On Westend the view‑call weight usage (per my table) was constant at **47 659 
 - **Average throughput**: ≈ 10 tx/s  
 - **gasLimit** was essentially constant at ~36 M gas per block  
 
-![Example 1](image-1.png)  
+![Example 1](NFT_Image_Results/image-1.png)  
 View NFT: https://testnets.opensea.io/assets/sepolia/0x585eba013eb7ec2be10c335186a4bb372b181d60/1
 
-![Example 2](image-2.png) 
+![Example 2](NFT_Image_Results/image-2.png) 
 View NFT: https://testnets.opensea.io/assets/sepolia/0x585eba013eb7ec2be10c335186a4bb372b181d60/7
 
-![Example 3](image-3.png)  
+![Example 3](NFT_Image_Results/image-3.png)  
 View NFT: https://testnets.opensea.io/assets/sepolia/0x585eba013eb7ec2be10c335186a4bb372b181d60/5
 
-![Example 4](image-4.png)  
+![Example 4](NFT_Image_Results/image-4.png)  
 View NFT: https://testnets.opensea.io/assets/sepolia/0x585eba013eb7ec2be10c335186a4bb372b181d60/3
 
-![Example 5](image-5.png)  
+![Example 5](NFT_Image_Results/image-5.png)  
 View NFT: https://testnets.opensea.io/assets/sepolia/0x75c11f37c9bc5c85344ac4d4f2a848997d3643b1/1
 
 
@@ -193,14 +193,14 @@ View NFT: https://testnets.opensea.io/assets/sepolia/0x75c11f37c9bc5c85344ac4d4f
 
 | # | bars (gaslimit) | description                            | image (data URI)                                                                                                                                                                                                                                                                                                                                                                  | gaslimit          | baseFee (gwei) | gasPrice (gwei) | priorityFee (gwei) | chainId     | tx/s (throughput)   | gasUsed             | blobGasUsed | cumulativeGasUsed | type | status | Phase1 duration (ms) |
 | - | ---- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | -------------- | --------------- | ------------------ | ----------- | ------ | ------------------- | ----------- | ----------------- | ---- | ------ | -------------------- |
-| 1 | 50   | ASCII‑Eval NFT: on‑chain metrics → art | ![Example-9](image-14.png) | 2 000 000 000 000 | 0.0            | 0.000001        | 0.000001           | 420 420 421 | ≈ 0.01 | 47 659 635 048 333n | null        | 0n                | 2    | 1      | 4 428                |
-| 2 | 50   | ASCII‑Eval NFT: on‑chain metrics → art | ![Example-8](image-13.png) | 2 000 000 000 000 | 0.0            | 0.000001        | 0.000001           | 420 420 421 | ≈ 0.03 | 47 659 635 048 333n | null        | 0n                | 2    | 1      | 4 435                |
-| 3 | 50   | ASCII‑Eval NFT: on‑chain metrics → art | ![Example-7](image-12.png) | 2 000 000 000 000 | 0.0            | 0.000001        | 0.000001           | 420 420 421 | ≈ 0.02 | 47 659 635 048 333n | null        | 0n                | 2    | 1      | 12 485               |
-| 4 | 50   | ASCII‑Eval NFT: on‑chain metrics → art | ![Example-6](image-11.png) | 2 000 000 000 000 | 0.0            | 0.000001        | 0.000001           | 420 420 421 | ≈ 0.01 | 47 659 635 048 333n | null        | 0n                | 2    | 1      | 24 676               |
-| 5 | 50   | ASCII‑Eval NFT: on‑chain metrics → art | ![Example-5](image-10.png) | 2 000 000 000 000 | 0.0            | 0.000001        | 0.000001           | 420 420 421 | ≈ 0.02 | 47 659 635 048 333n | null        | 0n                | 2    | 1      | 4 459                |
-| 6 | 50   | ASCII‑Eval NFT: on‑chain metrics → art | ![Example-4](image-9.png) | 2 000 000 000 000 | 0.0            | 0.000001        | 0.000001           | 420 420 421 | ≈ 0.00 | 47 659 635 048 333n | null        | 0n                | 2    | 1      | —                    |
-| 7 | 50   | ASCII‑Eval NFT: on‑chain metrics → art | ![Example-3](image-8.png) | 2 000 000 000 000 | 0.0            | 0.000001        | 0.000001           | 420 420 421 | ≈ 0.01 | 47 659 635 048 333n | null        | 0n                | 2    | 1      | —                    |
-| 8 | 50   | ASCII‑Eval NFT: on‑chain metrics → art | ![Example-2](image-7.png) | 2 000 000 000 000 | 0.0            | 0.000001        | 0.000001           | 420 420 421 | ≈ 0.01 | 47 659 635 048 333n | null        | 0n                | 2    | 1      | 73 242               |
+| 1 | 50   | ASCII‑Eval NFT: on‑chain metrics → art | ![Example-9](NFT_Image_Results/image-14.png) | 2 000 000 000 000 | 0.0            | 0.000001        | 0.000001           | 420 420 421 | ≈ 0.01 | 47 659 635 048 333n | null        | 0n                | 2    | 1      | 4 428                |
+| 2 | 50   | ASCII‑Eval NFT: on‑chain metrics → art | ![Example-8](NFT_Image_Results/image-13.png) | 2 000 000 000 000 | 0.0            | 0.000001        | 0.000001           | 420 420 421 | ≈ 0.03 | 47 659 635 048 333n | null        | 0n                | 2    | 1      | 4 435                |
+| 3 | 50   | ASCII‑Eval NFT: on‑chain metrics → art | ![Example-7](NFT_Image_Results/image-12.png) | 2 000 000 000 000 | 0.0            | 0.000001        | 0.000001           | 420 420 421 | ≈ 0.02 | 47 659 635 048 333n | null        | 0n                | 2    | 1      | 12 485               |
+| 4 | 50   | ASCII‑Eval NFT: on‑chain metrics → art | ![Example-6](NFT_Image_Results/image-11.png) | 2 000 000 000 000 | 0.0            | 0.000001        | 0.000001           | 420 420 421 | ≈ 0.01 | 47 659 635 048 333n | null        | 0n                | 2    | 1      | 24 676               |
+| 5 | 50   | ASCII‑Eval NFT: on‑chain metrics → art | ![Example-5](NFT_Image_Results/image-10.png) | 2 000 000 000 000 | 0.0            | 0.000001        | 0.000001           | 420 420 421 | ≈ 0.02 | 47 659 635 048 333n | null        | 0n                | 2    | 1      | 4 459                |
+| 6 | 50   | ASCII‑Eval NFT: on‑chain metrics → art | ![Example-4](NFT_Image_Results/image-9.png) | 2 000 000 000 000 | 0.0            | 0.000001        | 0.000001           | 420 420 421 | ≈ 0.00 | 47 659 635 048 333n | null        | 0n                | 2    | 1      | —                    |
+| 7 | 50   | ASCII‑Eval NFT: on‑chain metrics → art | ![Example-3](NFT_Image_Results/image-8.png) | 2 000 000 000 000 | 0.0            | 0.000001        | 0.000001           | 420 420 421 | ≈ 0.01 | 47 659 635 048 333n | null        | 0n                | 2    | 1      | —                    |
+| 8 | 50   | ASCII‑Eval NFT: on‑chain metrics → art | ![Example-2](NFT_Image_Results/image-7.png) | 2 000 000 000 000 | 0.0            | 0.000001        | 0.000001           | 420 420 421 | ≈ 0.01 | 47 659 635 048 333n | null        | 0n                | 2    | 1      | 73 242               |
 
 - **Average Phase 1 duration**: ≈ 20 621 ms  
 - **Min/Max duration**: 4 428 ms / 73 242 ms  
@@ -209,15 +209,15 @@ View NFT: https://testnets.opensea.io/assets/sepolia/0x75c11f37c9bc5c85344ac4d4f
 barCount = gaslimit / 12_000_000
 
 Example NFT's:
-![Example-9](image-14.png) 
-![Example-8](image-13.png) 
-![Example-7](image-12.png) 
-![Example-6](image-11.png) 
-![Example-5](image-10.png) 
-![Example-4](image-9.png) 
-![Example-3](image-8.png) 
-![Example-2](image-7.png) 
-![Example-1](image-6.png) 
+![Example-9](NFT_Image_Results/image-14.png) 
+![Example-8](NFT_Image_Results/image-13.png) 
+![Example-7](NFT_Image_Results/image-12.png) 
+![Example-6](NFT_Image_Results/image-11.png) 
+![Example-5](NFT_Image_Results/image-10.png) 
+![Example-4](NFT_Image_Results/image-9.png) 
+![Example-3](NFT_Image_Results/image-8.png) 
+![Example-2](NFT_Image_Results/image-7.png) 
+![Example-1](NFT_Image_Results/image-6.png) 
 
 
 ---
