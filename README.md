@@ -333,3 +333,41 @@ In summary, the performance comparison between Polkadot’s PolkaVM (Westend Ass
 
 **Key takeaway for multi‑chain on‑chain computation:**  
 Ethereum‑style EVMs tolerate very heavy off‑chain view computations; PolkaVM enforces tight weight and memory budgets that can break the same logic. To deploy generative art or other compute‑intensive contracts across both, you must design for the strictest target (PolkaVM) or offload work off‑chain. PolkaVM delivers EVM compatibility with a conservative resource model—excellent for predictable budgeting, but demanding careful optimization for complex on‑chain logic.
+
+
+## Feedback & Suggestions for Polkadot EVM Tooling
+
+Here are a few of my suggestions to make the Polkadot EVM experience even smoother:
+
+- **Surface Existential Deposit (ED) Requirements Early**  
+  It’d be great to call out the minimum balance needed for deployment and transfers on each network, and show an example “insufficient balance” error plus how to top up via faucet or CLI.
+
+- **Better Hardhat (and Friends) Integration**  
+  Providing a first-class Hardhat plugin or config preset for PolkaVM (Westend/Asset Hub) – with gasLimit ↔ weight conversions and default RPC endpoints – would save a ton of setup time. Same for Quickstarts in Foundry, Truffle, and Remix.
+
+- **Clear Contract Complexity & Gas/Weight Limits**  
+  A simple table listing block gaslimits on Sepolia vs. block weight on Westend (with equivalent gas values), init-code size caps (EIP-170/EIP-3860) and typical WASM memory budgets would be super handy.
+
+- **Explain “Missing Revert Data” on View Calls**  
+  Since PolkaVM sometimes aborts heavy view calls without any revert message, it’d help to have a note in the docs about weight/memory traps and local simulation tips (e.g. `evm_maxExecGas`, Substrate’s `--execution=Native`).
+
+- **Weight-to-Gas Conversion Examples**  
+  A short guide (or better yet, a script/Hardhat task) showing how Frontier maps Substrate weight to Ethereum gas would make migrations much more predictable.
+
+- **On-Chain String vs. Bytes Trade-Offs**  
+  Including a tiny benchmark or code snippet in the NFT/SVG guide that compares unbounded `string.concat` to pre-allocated `bytes` buffers would help folks avoid surprising gas/weight blows.
+
+- **Official RPC Endpoint List & Stability Tips**  
+  Maintaining a vetted list of Asset Hub RPC URLs, plus advice on timeouts, retries, and best client-config settings, would smooth out those “random disconnect” moments.
+
+- **More Descriptive Error Messages**  
+  If the Frontier pallets could bubble up clearer error codes for out-of-weight, out-of-memory, or init-code size failures, debugging would be so much faster.
+
+- **Sample Multi-Chain Boilerplate**  
+  A tiny repo that deploys the same contract to Sepolia and Westend (with CI scripts that auto-convert weights, deploy, and verify) would be a killer learning resource.
+
+- **Handy CLI Helpers**  
+  A small command-line tool or helper library that fetches `block.gaslimit`, converts it to a “max safe rows×cols” for on-chain art loops, or pulls weight budgets via RPC would be really neat.
+
+Thanks for all the hard work on PolkaVM! Hoping some of these ideas are useful. 😊
+
