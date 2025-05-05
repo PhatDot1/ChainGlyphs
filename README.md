@@ -206,7 +206,19 @@ View NFT: https://testnets.opensea.io/assets/sepolia/0x75c11f37c9bc5c85344ac4d4f
 - **Min/Max duration**: 4 428 ms / 73 242 ms  
 - **Average throughput**: ≈ 0.017 tx/s  
 
-barCount = gaslimit / 12_000_000
+**Gas Limit Bars Calculation Issue**
+
+We can see that the gas limit here is easily breaking our 50-bar limit. This is due to Substrate’s weight-to-fee conversion mapping the parachain’s generous block-weight ceiling into the reported EVM gas limit.
+
+We actually experienced it to be closer to of **𝒪(10⁷)** or **𝒪(10⁶)**.
+
+## Bars Formula
+
+```text
+bars = ⎣ gasLimit / 12 000 000 ⎦  (clamped to the range 1–50)
+```
+Note: Any result below 1 bar will be clamped to 1 bar by our lower limit.
+
 
 Example NFT's:
 ![Example-9](NFT_Image_Results/image-14.png) 
