@@ -1,4 +1,3 @@
-1. 
 # ChainGlyphs: Live‑Data NFTs Forged by Blockchain Performance
 
 An Autoglyph's inspired on‑chain ASCII‑art NFT minter from Ethereum Sepolia into PolkaVM (Polkadot Westend Asset Hub), to perform an in‑depth comparative analysis of performance, cost, and deployment complexity.
@@ -327,6 +326,3 @@ In summary, the performance comparison between Polkadot’s PolkaVM (Westend Ass
 
 **Key takeaway for multi‑chain on‑chain computation:**  
 Ethereum‑style EVMs tolerate very heavy off‑chain view computations; PolkaVM enforces tight weight and memory budgets that can break the same logic. To deploy generative art or other compute‑intensive contracts across both, you must design for the strictest target (PolkaVM) or offload work off‑chain. PolkaVM delivers EVM compatibility with a conservative resource model—excellent for predictable budgeting, but demanding careful optimization for complex on‑chain logic.
-
-2. 
-Create2 issue- 

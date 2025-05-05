@@ -1,0 +1,283 @@
+  0x585eBA013eb7Ec2bE10C335186a4bB372B181D60
+  {
+      "trait_type": "bars",
+      "value": 2
+    },
+    {
+      "trait_type": "time",
+      "value": 13166
+    },
+    {
+      "trait_type": "gaslimit",
+      "value": 35964810
+    },
+    {
+      "trait_type": "gasPrice",
+      "value": 5991925
+    },
+    {
+      "trait_type": "priorityFee",
+      "value": 1000000
+    },
+    {
+      "trait_type": "txThroughput",
+      "value": 8
+    }
+    {
+      "trait_type": "time",
+      "value": 13263
+    },
+    {
+      "trait_type": "gaslimit",
+      "value": 35999930
+    },
+    {
+      "trait_type": "gasPrice",
+      "value": 47051173471
+    },
+    {
+      "trait_type": "priorityFee",
+      "value": 1000000
+    },
+    {
+      "trait_type": "txThroughput",
+      "value": 10
+    }
+  "attributes": [
+    {
+      "trait_type": "time",
+      "value": 9090
+    },
+    {
+      "trait_type": "gaslimit",
+      "value": 36000000
+    },
+    {
+      "trait_type": "gasPrice",
+      "value": 61611478087
+    },
+    {
+      "trait_type": "priorityFee",
+      "value": 1000000
+    },
+    {
+      "trait_type": "txThroughput",
+      "value": 9
+    }
+ [
+    {
+      "trait_type": "time",
+      "value": 13194
+    },
+    {
+      "trait_type": "gaslimit",
+      "value": 36000000
+    },
+    {
+      "trait_type": "gasPrice",
+      "value": 84951027241
+    },
+    {
+      "trait_type": "priorityFee",
+      "value": 1000000
+    },
+    {
+      "trait_type": "txThroughput",
+      "value": 10
+    }
+  ]
+}
+[
+    {
+      "trait_type": "time",
+      "value": 5019
+    },
+    {
+      "trait_type": "gaslimit",
+      "value": 36000000
+    },
+    {
+      "trait_type": "gasPrice",
+      "value": 83889329158
+    },
+    {
+      "trait_type": "priorityFee",
+      "value": 1000000
+    },
+    {
+      "trait_type": "txThroughput",
+      "value": 11
+    }
+  ]
+}[
+    {
+      "trait_type": "time",
+      "value": 21425
+    },
+    {
+      "trait_type": "gaslimit",
+      "value": 36000000
+    },
+    {
+      "trait_type": "gasPrice",
+      "value": 36690351369
+    },
+    {
+      "trait_type": "priorityFee",
+      "value": 1000000
+    },
+    {
+      "trait_type": "txThroughput",
+      "value": 15
+    }
+  ]
+} [
+    {
+      "trait_type": "bars",
+      "value": 3
+    },
+    {
+      "trait_type": "time",
+      "value": 13231
+    },
+    {
+      "trait_type": "gaslimit",
+      "value": 36000000
+    },
+    {
+      "trait_type": "gasPrice",
+      "value": 1833536249
+    },
+    {
+      "trait_type": "priorityFee",
+      "value": 1000000
+    },
+    {
+      "trait_type": "txThroughput",
+      "value": 12
+    }
+  ]
+}
+"attributes": [
+    {
+      "trait_type": "bars",
+      "value": 2
+    },
+    {
+      "trait_type": "time",
+      "value": 4988
+    },
+    {
+      "trait_type": "gaslimit",
+      "value": 35999895
+    },
+    {
+      "trait_type": "gasPrice",
+      "value": 1531435672
+    },
+    {
+      "trait_type": "priorityFee",
+      "value": 1000000
+    },
+    {
+      "trait_type": "txThroughput",
+      "value": 14
+    }
+  ]
+}{
+      "trait_type": "bars",
+      "value": 3
+    },
+    {
+      "trait_type": "time",
+      "value": 13576
+    },
+    {
+      "trait_type": "gaslimit",
+      "value": 36000000
+    },
+    {
+      "trait_type": "gasPrice",
+      "value": 4490824
+    },
+    {
+      "trait_type": "priorityFee",
+      "value": 1000000
+    },
+    {
+      "trait_type": "txThroughput",
+      "value": 7
+    }  "attributes": [
+    {
+      "trait_type": "bars",
+      "value": 3
+    },
+    {
+      "trait_type": "time",
+      "value": 9094
+    },
+    {
+      "trait_type": "gaslimit",
+      "value": 36000000
+    },
+    {
+      "trait_type": "gasPrice",
+      "value": 3844847
+    },
+    {
+      "trait_type": "priorityFee",
+      "value": 1000000
+    },
+    {
+      "trait_type": "txThroughput",
+      "value": 8
+    }
+  ]
+}
+    {
+      "trait_type": "bars",
+      "value": 2
+    },
+    {
+      "trait_type": "time",
+      "value": 9083
+    },
+    {
+      "trait_type": "gaslimit",
+      "value": 35964845
+    },
+    {
+      "trait_type": "gasPrice",
+      "value": 4076858
+    },
+    {
+      "trait_type": "priorityFee",
+      "value": 1000000
+    },
+    {
+      "trait_type": "txThroughput",
+      "value": 8
+    }{
+      "trait_type": "bars",
+      "value": 3
+    },
+    {
+      "trait_type": "time",
+      "value": 25555
+    },
+    {
+      "trait_type": "gaslimit",
+      "value": 36000000
+    },
+    {
+      "trait_type": "gasPrice",
+      "value": 3499496
+    },
+    {
+      "trait_type": "priorityFee",
+      "value": 1000000
+    },
+    {
+      "trait_type": "txThroughput",
+      "value": 8
+    }
