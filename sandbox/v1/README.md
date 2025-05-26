@@ -327,3 +327,5 @@ In summary, the performance comparison between Polkadot’s PolkaVM (Westend Ass
 **Key takeaway for multi‑chain on‑chain computation:**  
 Ethereum‑style EVMs tolerate very heavy off‑chain view computations; PolkaVM enforces tight weight and memory budgets that can break the same logic. To deploy generative art or other compute‑intensive contracts across both, you must design for the strictest target (PolkaVM) or offload work off‑chain. PolkaVM delivers EVM compatibility with a conservative resource model—excellent for predictable budgeting, but demanding careful optimization for complex on‑chain logic.
 
+
+
